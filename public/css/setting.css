@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.wrapper{
+    width: 100%;
+    direction: rtl;
+}
+
+@font-face {
+    font-family: english;
+    src: url(../fonts/Lato-Regular.eot);
+    src: url(../fonts/Lato-Regular.woff);
+    src: url(../fonts/Lato-Regular.woff2);
+    src: url(../fonts/Lato-Regular.ttf);
+
+}
+@font-face {
+    font-family: yekan;
+    src: url(../fonts/fa/IRANYekanWeb-Bold.eot);
+    src: url(../fonts/fa/IRANYekanWeb-Bold.ttf);
+    src: url(../fonts/fa/IRANYekanWeb-Bold.woff);
+    src: url(../fonts/fa/IRANYekanWeb-Bold.woff2);
+
+}
+

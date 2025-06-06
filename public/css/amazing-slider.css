@@ -1,0 +1,154 @@
+
+div.amazing-slider{
+    width: 100%;
+    height: 300px;
+    padding:0px 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+div.amazing-slider>div.myASwiper{
+    width: 80.5%;
+    background-color: #E4344E;
+    border-radius: 20px;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+div.amazing-slider>div.myASwiper>div.swiper-wrapper{
+    width: inherit;
+    height: inherit;
+}
+div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide{
+    width: inherit;
+    height: inherit;
+}
+
+div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.imageswow{
+    width: 55% ;
+    height: 230px;
+    margin: 0 auto;
+}
+
+div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.imageswow>div.image1 , div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.imageswow>div.image2{
+    width: 100%;
+    height: 50%;
+}
+div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.imageswow>div.image1>svg{
+    width: inherit;
+}
+
+div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.imageswow>div.image2>svg{
+    width: inherit;
+}
+
+
+div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>h4{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: yekan;
+    color: white;
+}
+
+
+div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item>img{
+    display:block;
+    width: 80%;
+    height: 60%;
+    object-fit: contain;
+    margin: 10px 0;
+}
+
+div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item>h4{
+    width: 100%;
+    font-size: 11.5px;
+    color: #6B6F76;
+    font-family: yekan;
+    font-weight: normal;
+    text-align: right;
+    margin-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    
+}
+div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item>div.price{
+    width: 100%;
+    margin-top: 13px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+    margin-right: 5px;
+}
+
+
+div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item>div.price>div.right , div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item>div.price>div.left{
+    font-family: yekan;
+    margin-left: 5px;
+}
+
+div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item>div.price>div.right{
+    width: 20%;
+    background-color: #D32F2F;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    
+}
+div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item>div.price>div.left{
+    
+    color: #3F4064;
+    font-size: 13px;
+    font-weight: bold;  
+}
+
+div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item>div.total{
+    width: 60%;
+    font-family: yekan;
+    color: #C0C2C5;
+    font-size: 13px;
+    text-decoration: line-through;
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+  div.swiper-slide:nth-of-type(1){
+    background-color: transparent;
+  }
+
+  div.swiper-slide:nth-of-type(2){
+    border-radius: 0 10px 10px 0;
+  }
+

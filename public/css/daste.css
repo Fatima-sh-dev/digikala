@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.kol{
+    width: 100%;
+    height:460px ;
+    display: flex;
+    justify-content: center;
+}
+div.kol>div.mohtava{
+    width: 95%;
+    height: 100%;
+    display: grid;
+    grid-template-rows:70px 195px 195px  ;
+    gap: 5px;
+}
+
+div.kol>div.mohtava>h1{
+    font-family: yekan;
+    font-size: 22px;
+    width: 100%;
+    line-height: 70px;
+    text-align: center;
+}
+div.kol>div.mohtava>div.satr1 , div.kol>div.mohtava>div.satr2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8 , 12.2%);
+    justify-content: center;
+    gap: 1px;
+}
+div.kol>div.mohtava>div.satr1>div.one , div.kol>div.mohtava>div.satr2>div.one{
+    text-align: center;
+}
+
+
+div.kol>div.mohtava>div.satr1>div.one>a , div.kol>div.mohtava>div.satr2>div.one>a{
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+div.kol>div.mohtava>div.satr1>div.one>a>img , div.kol>div.mohtava>div.satr2>div.one>a>img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+div.kol>div.mohtava>div.satr1>div.one>a>h6 , div.kol>div.mohtava>div.satr2>div.one>a>h6{
+    width: 70%;
+    height: 20px;
+    margin-top: 7px;
+    margin-right: 22px;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 450;
+}

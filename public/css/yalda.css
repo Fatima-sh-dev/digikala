@@ -1,0 +1,24 @@
+div.yalda{
+    width: 100%;
+    height: 260px;
+}
+div.yalda>div.all-yalda{
+    width:100%;
+    height: 100%;
+    margin: 13px auto;
+    display: grid;
+    grid-template-columns: repeat(4,325px);
+    justify-content: center;
+    align-content: center;
+}
+div.yalda>div.all-yalda>div.one-yalda{
+    width:325px ;
+    height: 250px;
+}
+div.yalda>div.all-yalda>div.one-yalda>img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px lightgray;
+}

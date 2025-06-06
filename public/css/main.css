@@ -1,0 +1,36 @@
+@import url("./setting.css");
+
+@import url("./media/xxl.css") only screen and (min-width:1400px);
+/*  2xl  */
+@import url("./media/xl.css") only screen and (min-width:1200px) and (max-width:1400px);
+/*  xl  */
+@import url("./media/lg.css") only screen and (min-width:992px) and (max-width:1200px);
+/*  lg  */
+@import url("./media/md.css") only screen and (min-width:768px) and (max-width:992px);
+/*  md  */
+@import url("./media/sm.css") only screen and (min-width:560px) and (max-width:768px);
+/*  sm  */
+@import url("./media/xs.css") only screen and (max-width:560px);
+/*  xs  */
+
+
+
+
+
+
+
+
+
+
+/* @import "./header.css"; */
+/* @import "./setting.css";
+@import "./story.css";
+@import "./slider.css";
+@import "./sort.css";
+@import "./amazing-slider.css";
+@import "./yalda.css"; 
+@import "./amazing-super.css";
+@import "./daste.css";
+@import "./eynakocharm.css";
+@import "./support.css";
+@import "./footer.css"; */
