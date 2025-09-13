@@ -259,16 +259,6 @@ header>div.header-bottom>div.bbottom>div.menu>nav>div:first-of-type>div.submenu>
 } */
 
 /****************************************************************************************/
-header>div.header-bottom>div.bbottom>div.menu>nav>div:nth-of-type(2) {
-    border-right: 1.5px solid lightgrey;
-    padding-right: 1px;
-    box-sizing: border-box;
-}
-
-header>div.header-bottom>div.bbottom>div.menu>nav>div>a>i {
-    font-size: 13px;
-    color: #62666D;
-}
 
 header>div.header-bottom>div.bbottom>div.country {
     display: none;
@@ -287,9 +277,9 @@ div.story {
 div.story>div.all-story {
     width: 95%;
     height: inherit;
-    display: grid;
-    grid-template-columns: repeat(7, 14%);
-    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 div.story>div.all-story>div.one-story {
@@ -298,7 +288,9 @@ div.story>div.all-story>div.one-story {
 
 div.story>div.all-story>div.one-story:nth-of-type(10),
 div.story>div.all-story>div.one-story:nth-of-type(9),
-div.story>div.all-story>div.one-story:nth-of-type(8) {
+div.story>div.all-story>div.one-story:nth-of-type(8),
+div.story>div.all-story>div.one-story:nth-of-type(7),
+div.story>div.all-story>div.one-story:nth-of-type(6) {
     display: none;
 }
 
@@ -408,7 +400,7 @@ div.slider {
 
 div.sort {
     width: 100%;
-    height: 130px;
+    height: 250px;
     display: flex;
     justify-content: center;
 }
@@ -417,9 +409,8 @@ div.sort>div.all-sort {
     width: 95%;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(8, 12%);
-    justify-content: center;
-    gap: 1px;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
 }
 
 div.sort>div.all-sort>div.one-sort {
@@ -467,152 +458,7 @@ div.sort>div.all-sort>div.one-sort>a>svg {
 /********************************************* AMAZING SLIDER *****************************************/
 /*************************************************************************************************/
 div.amazing-slider {
-    width: 100%;
-    height: 300px;
-    margin: 0 auto;
-}
-
-div.amazing-slider>div.myASwiper {
-    width: 95%;
-    background-color: #E4344E;
-    border-radius: 20px;
-    padding: 20px 0;
-    box-sizing: border-box;
-}
-
-div.amazing-slider>div.myASwiper>div.swiper-wrapper {
-    width: inherit;
-    height: inherit;
-}
-
-div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide {
-    width: inherit;
-    height: inherit;
-}
-
-div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.imageswow {
-    width: 100%;
-    height: 230px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-rows: repeat(2, 50%);
-}
-
-div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.imageswow>div.image1,
-div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.imageswow>div.image2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.imageswow>div.image1>svg,
-div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.imageswow>div.image2>svg {
-    width: 100%;
-}
-
-div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>h4 {
-    font-size: 12px;
-    font-weight: normal;
-    font-family: yekan;
-    color: white;
-}
-
-div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item {
-    width: 100%;
-    height: inherit;
-    display: grid;
-    grid-template-rows: 60% 10% 10% 10%;
-    justify-content: center;
-    gap: 2px;
-}
-
-div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item>img {
-    display: block;
-    transform: translateX(-33%);
-    width: 60%;
-    object-fit: contain;
-}
-
-div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item>h4 {
-    width: 100%;
-    font-size: 11.5px;
-    color: #6B6F76;
-    font-family: yekan;
-    font-weight: normal;
-    text-align: right;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item>div.price {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 30px;
-    font-family: yekan;
-}
-
-div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item>div.price>div.right {
-    width: 20%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #D32F2F;
-    color: white;
-    border-radius: 20px;
-    font-size: 12px;
-}
-
-div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item>div.price>div.left {
-    display: flex;
-    align-items: center;
-    color: #3F4064;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-div.amazing-slider>div.myASwiper>div.swiper-wrapper>div.swiper-slide>div.item>div.total {
-    font-family: yekan;
-    color: #C0C2C5;
-    font-size: 13px;
-    text-decoration: line-through;
-    padding-left: 10px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.swiper {
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-div.swiper-slide:nth-of-type(1) {
-    background-color: transparent;
-}
-
-div.swiper-slide:nth-of-type(2) {
-    border-radius: 0 10px 10px 0;
+    display: none;
 }
 
 /*************************************************************************************************/
@@ -620,7 +466,7 @@ div.swiper-slide:nth-of-type(2) {
 /***********************************************************************************************/
 div.yalda {
     width: 100%;
-    height: 520px;
+    height: 1040px;
     text-align: center;
 }
 
@@ -629,12 +475,7 @@ div.yalda>div.all-yalda {
     height: 100%;
     margin: 20px auto;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(2, 50%);
-    justify-content: space-between;
-    align-content: center;
     gap: 10px;
-    row-gap: 2px;
 }
 
 div.yalda>div.all-yalda>div.one-yalda {
