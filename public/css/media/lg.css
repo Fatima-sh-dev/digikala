@@ -47,7 +47,9 @@ header>div.header-bottom>div.btop {
     align-items: center;
     gap: 10px;
 }
-
+header>div.header-bottom>div.btop>div.HamburgerMenu{
+  display: none;
+}
 header>div.header-bottom>div.btop>div.logo {
     height: inherit;
     display: flex;

@@ -46,7 +46,9 @@ header>div.header-bottom>div.btop {
   justify-content: center;
   align-items: center;
 }
-
+header>div.header-bottom>div.btop>div.HamburgerMenu{
+  display: none;
+}
 header>div.header-bottom>div.btop>div.logo {
   height: inherit;
   display: flex;
