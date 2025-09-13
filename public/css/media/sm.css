@@ -47,9 +47,10 @@ header>div.header-bottom>div.btop {
     align-items: center;
     padding: 0 20px;
     box-sizing: border-box;
-    
+
 }
-header>div.header-bottom>div.btop>div.HamburgerMenu{
+
+header>div.header-bottom>div.btop>div.HamburgerMenu {
     width: 50px;
     height: 50px;
     display: flex;
@@ -60,7 +61,7 @@ header>div.header-bottom>div.btop>div.HamburgerMenu{
     cursor: pointer;
 }
 
-header>div.header-bottom>div.btop>div.HamburgerMenu>div{
+header>div.header-bottom>div.btop>div.HamburgerMenu>div {
     width: 55%;
     height: 3px;
     background-color: #494848;
@@ -691,7 +692,7 @@ div.kol>div.mohtava>div.satr1>div.one {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 div.kol>div.mohtava>div.satr1>div.one>a {
@@ -782,7 +783,7 @@ footer>div.logo-top {
 }
 
 footer>div.logo-top>div.logo {
-    width: 10%;
+    width: 20%;
     height: inherit;
 }
 
@@ -792,7 +793,7 @@ footer>div.logo-top>div.logo svg {
 }
 
 footer>div.logo-top>div.gotop {
-    width: 30%;
+    width: 50%;
     position: relative;
 }
 
@@ -835,45 +836,54 @@ footer>h6:nth-of-type(1) {
 }
 
 footer>div.emkanat {
+    padding: 0 10px;
+    box-sizing: border-box;
     width: 100%;
     height: 125px;
     margin-top: 30px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 2px;
 }
 
 footer>div.emkanat>a {
-    display: block;
+    width: 20%;
     text-decoration: none;
 }
 
 footer>div.emkanat>a>div.one {
-    width: 130px;
+    width: 100%;
     height: 100px;
-    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 footer>div.emkanat>a>div.one>div.aks {
-    width: inherit;
+    width: 50%;
     height: 64%;
 }
 
 footer>div.emkanat>a>div.one>h6 {
-    width: inherit;
+    width: 80%;
     height: 36%;
-    font-size: 11px;
+    font-size: 8px;
     color: rgb(67, 66, 66);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 div.tozihat {
-    padding-right: 20px;
+    padding: 0 20px;
     box-sizing: border-box;
     width: 100%;
     height: 300px;
     margin-top: 20px;
     display: flex;
-    gap: 140px;
+    gap: 60px;
 }
 
 div.tozihat>a {
@@ -913,18 +923,18 @@ div.app {
 }
 
 div.app>div {
-    width: 97%;
+    width: 95%;
     height: 100%;
     background-color: #3C4B6C;
     border-radius: 10px;
-    display: grid;
-    grid-template-columns: 3.5% 55% 30% 3%;
-    gap: 5px;
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 div.app>div>div.loogoo {
+    background-color: #129A4A;
+
     height: 40%;
 }
 
@@ -943,47 +953,13 @@ div.app>div>h1 {
 }
 
 div.app>div>div.download {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 65%;
-    gap: 10px;
-}
-
-div.app>div>div.download>div {
-    width: 32%;
-    height: 100%;
-}
-
-div.app>div>div.download>div>a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    border-radius: 20px;
-}
-
-div.app>div>div.download>div>a>svg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    display: none;
 }
 
 div.app>div>div.mooree {
-    background-color: whitesmoke;
-    text-align: center;
-    height: 33%;
-    line-height: 40px;
-    border-radius: 6px;
-    margin-right: 5px;
+    display: none;
 }
 
-div.app>div>div.mooree>a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
 
 
 /*************************************************************************************************/
