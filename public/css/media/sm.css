@@ -554,16 +554,16 @@ div.amazing-super>div.all>div.off {
 }
 
 div.amazing-super>div.all>div.items {
-
     width: 48%;
     height: 80%;
     display: inline-block;
     vertical-align: top;
     margin-right: -4px;
     margin-top: 10px;
-    text-align: left;
+    text-align: center;
     padding-left: 20px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 div.amazing-super>div.all>div.items>div.product {
@@ -648,7 +648,7 @@ div.amazing-super>div.all>div.more:hover>a {
 
 div.amazing-super>div.all>div.more>a>h4 {
     color: #129A4A;
-    font-size: 13px;
+    font-size: 8px;
 }
 
 /*************************************************************************************************/
